@@ -1,0 +1,46 @@
+# Daniel Njoku · Independent Odoo ERP Consultant
+
+> Daniel Njoku is an independent Odoo ERP consultant based in Lagos, Nigeria (WAT, UTC+1), serving clients worldwide. He implements, customises, migrates, integrates and supports Odoo on Odoo Online, Odoo.sh and on-premise, with particular depth in accounting, invoicing, HR and payroll. He has a software engineering, cloud (Microsoft Azure) and cybersecurity background.
+
+## Services
+- Odoo implementation: Starter package from US$3,500 (about ₦2.1m in Nigeria); Growth from US$9,000; Enterprise from US$20,000
+- Odoo HR and payroll, including statutory salary rules for countries without a localisation (e.g. Nigerian PAYE, pension, NHF): HR suite from US$3,000 per company
+- Customisation: Odoo Studio, Python modules, QWeb invoice and report layouts (from US$120 per template)
+- Integrations, data migration and version upgrades
+- Odoo health checks and security audits (from US$600)
+- Training, user guides and monthly support retainers (from US$400/month)
+- White-label delivery for Odoo partners and agencies
+- Hourly rate: US$45. Odoo licence fees are separate.
+
+## Recent work
+- Rebuilt 13 Excel invoice templates as Odoo invoice layouts for an Odoo implementation partner in Lagos, delivered in 3 days (Odoo Online and Odoo.sh)
+- Delivered a full HR suite (payroll, attendance, leave, appraisal) for a multi-company manufacturing group on Odoo.sh
+- Follow-up engagement (in progress): embedding read-only Odoo Knowledge manual pages inside a client's own application
+
+## Background
+- Independent Odoo ERP consultant (2026 to now)
+- Cybersecurity Solution Analyst and Software Engineer at an auditing and GRC SaaS company in Lagos
+- Cloud Technical Support Engineer, Microsoft Azure App Services (2021 to 2025)
+- Udacity DevOps Engineer Nanodegree (2022); HND and OND in Computer Science, IMT Enugu
+
+## FAQ
+- **Odoo Online, Odoo.sh or on-premise: which should I choose?** Odoo Online is cheapest to run and fine if Studio covers your changes. Odoo.sh is right when you need custom Python modules or integrations. On-premise suits strict data-residency rules. I'll recommend one after the discovery call, and I can deliver on all three.
+- **How much does an Odoo implementation cost?** My Starter package (one company, up to three apps, up to 15 users) starts at US$3,500, or about ₦2.1 million for Nigerian businesses paying in naira. A Growth package (up to six apps and 50 users) starts at US$9,000, and larger multi-company projects from US$20,000. Ad-hoc work is US$45 an hour. Odoo licence fees are separate and paid directly to Odoo.
+- **How long does an Odoo implementation take?** A small business with three apps usually goes live in 3 to 5 weeks. A mid-sized company with six apps takes 6 to 10 weeks. Smaller jobs are faster: a set of invoice layouts can be done in days, and an HR and payroll setup in one to three weeks.
+- **Can Odoo handle Nigerian payroll, including PAYE, pension and NHF?** Yes. Odoo has no ready-made Nigerian payroll localisation, so I build the statutory deductions (PAYE tax, pension contributions, NHF and others) as salary rules in Odoo Payroll and test them against real payslips. The same approach works for any country without a localisation.
+- **What is the difference between Odoo Community and Odoo Enterprise?** Community is the free, open-source edition. Enterprise is the paid edition and adds apps and tools such as Payroll, Studio, full Accounting and mobile apps, plus Odoo's hosting and support. I work with both and will tell you whether the paid features are worth it for your business.
+- **Do you work with clients outside Nigeria?** Yes. All work can be done remotely, and the coverage chart above shows how my hours overlap with yours. Payroll and tax setups are built to your country's rules.
+- **Which Odoo versions do you support?** Current Community and Enterprise versions, plus upgrades from older ones.
+- **Can you take over a project another partner started?** Yes. I start with a short audit of the existing configuration and custom code, then give you a written list of what to fix, keep or remove.
+- **Do you sign NDAs?** Yes, before any data is shared. Partner subcontracting is confidential by default.
+- **How do payments work?** Fixed projects are usually split into a deposit and a balance on acceptance. Retainers are billed monthly in advance. International clients can pay by bank transfer or an agreed payment platform.
+
+## Contact
+- Website: https://njokdan.github.io/
+- Digital business card: https://njokdan.github.io/card.html
+- Book a free 30-minute discovery call: https://calendly.com/njokdan/odoo-discovery-call
+- Email: njokdan@gmail.com
+- WhatsApp / phone: +234 809 445 1628
+- LinkedIn: https://www.linkedin.com/in/daniel-njoku-9790645b/
+- X: https://x.com/njokudanielo
+- GitHub: https://github.com/njokdan

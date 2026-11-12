@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daniel Njoku · Odoo ERP Consultant · Business Card</title>
+<meta name="description" content="Digital business card of Daniel Njoku, independent Odoo ERP consultant. Tap to flip, save the contact, or book a free discovery call.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://njokdan.github.io/card.html">
+<meta name="theme-color" content="#0D2E26">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Daniel Njoku Odoo Consulting">
+<meta property="og:title" content="Daniel Njoku · Independent Odoo ERP Consultant">
+<meta property="og:description" content="Tap to flip my card, save my contact, or book a free 30-minute Odoo discovery call.">
+<meta property="og:url" content="https://njokdan.github.io/card.html">
+<meta property="og:image" content="https://njokdan.github.io/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Business card of Daniel Njoku, Independent Odoo ERP Consultant">
+<meta property="og:video" content="https://njokdan.github.io/card-flip.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta property="og:video:width" content="1080">
+<meta property="og:video:height" content="1080">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@njokudanielo">
+<meta name="twitter:title" content="Daniel Njoku · Independent Odoo ERP Consultant">
+<meta name="twitter:description" content="Tap to flip my card, save my contact, or book a free Odoo discovery call.">
+<meta name="twitter:image" content="https://njokdan.github.io/og-card.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","url":"https://njokdan.github.io/card.html","mainEntity":{"@id":"https://njokdan.github.io/#person","@type":"Person","name":"Daniel Njoku","jobTitle":"Independent Odoo ERP Consultant","url":"https://njokdan.github.io/","email":"mailto:njokdan@gmail.com","telephone":"+2348094451628","sameAs":["https://www.linkedin.com/in/daniel-njoku-9790645b/","https://x.com/njokudanielo","https://github.com/njokdan"]}}</script>
+<style>
+/* Single deliberate dark look: the card's own world. */
+:root{
+  --band:#0D2E26; --band2:#0A221C; --ink:#E8F2EE; --muted:#9DB8AE; --rule:#21493E; --amber:#E2A845; --green:#3FD39F;
+  --paper:#FFFFFF; --paper-ink:#12201B; --paper-muted:#56655E; --paper-rule:#D6DDD7;
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+html{background:#0A221C}
+body{margin:0;background:radial-gradient(1200px 700px at 50% 30%,#14403A 0%,var(--band) 45%,var(--band2) 100%) fixed;color:var(--ink);font-family:var(--f-body);-webkit-font-smoothing:antialiased}
+[hidden]{display:none!important}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:6px}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px;display:grid;gap:22px}
+#net{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1}
+
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.mark{width:34px;height:34px;border-radius:8px;background:var(--amber);color:#1B1206;display:grid;place-items:center;font:800 1rem/1 var(--f-display)}
+.brand b{font-family:var(--f-display);font-size:1.02rem}
+.site{font:500 .82rem/1 var(--f-body);text-decoration:none;color:var(--muted);border:1px solid var(--rule);padding:.55rem .8rem;border-radius:99px}
+.site:hover{color:var(--ink);border-color:var(--muted)}
+
+.hello{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;margin:6px 0 0}
+
+/* The card */
+.stage{display:grid;place-items:center;perspective:1600px}
+.flip{width:100%;max-width:600px;aspect-ratio:1.75/1;cursor:pointer;position:relative}
+.inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.flip.flipped .inner{transform:rotateY(180deg)}
+.inner.spin{animation:spin3 2.6s cubic-bezier(.25,.7,.2,1) both}
+@keyframes spin3{from{transform:rotateY(0)}to{transform:rotateY(1080deg)}}
+.face{position:absolute;inset:0;border-radius:16px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 30px 70px -28px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.04)}
+.front{background:linear-gradient(135deg,#123D33 0%,var(--band) 55%,#0B2620 100%);color:var(--ink);padding:clamp(16px,4.5%,30px);display:flex;flex-direction:column;justify-content:space-between}
+.front::after{content:"";position:absolute;right:-14%;bottom:-46%;width:62%;aspect-ratio:1;border-radius:50%;border:1px solid var(--rule);box-shadow:0 0 0 30px rgba(255,255,255,.022),0 0 0 60px rgba(255,255,255,.016)}
+.front::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.10) 48%,transparent 60%);transform:translateX(-100%);animation:sheen 5s ease-in-out 3s infinite}
+@keyframes sheen{0%,70%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.f-top{display:flex;align-items:center;gap:12px;position:relative;z-index:1}
+.f-top .mark{width:clamp(34px,8%,48px);height:auto;aspect-ratio:1;font-size:clamp(.9rem,2.6vw,1.2rem)}
+.eyebrow{font-family:var(--f-mono);font-size:clamp(.6rem,1.7vw,.78rem);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.name{font:800 clamp(1.5rem,6.4vw,2.6rem)/1.02 var(--f-display);letter-spacing:-.01em;position:relative;z-index:1}
+.role{font-family:var(--f-mono);font-size:clamp(.62rem,1.9vw,.86rem);letter-spacing:.09em;text-transform:uppercase;color:var(--amber);margin-top:6px;position:relative;z-index:1}
+.tag{font-size:clamp(.66rem,2vw,.9rem);color:var(--muted);position:relative;z-index:1}
+.back{transform:rotateY(180deg);background:var(--paper);color:var(--paper-ink);padding:clamp(12px,4%,26px);display:grid;grid-template-columns:1fr auto;gap:clamp(10px,3%,22px);align-items:center}
+.rows{display:grid;gap:clamp(2px,.8vw,6px);font-size:clamp(.64rem,2vw,.92rem);min-width:0}
+.rows div{display:grid;grid-template-columns:clamp(46px,14vw,78px) 1fr;gap:8px;min-width:0}
+.rows span{font-family:var(--f-mono);font-size:clamp(.55rem,1.5vw,.7rem);letter-spacing:.06em;text-transform:uppercase;color:var(--paper-muted);padding-top:2px}
+.rows b{font-weight:500;overflow-wrap:anywhere}
+.qr{background:#fff;line-height:0;padding:4px;border:1px solid var(--paper-rule);border-radius:8px}
+.qr img,.qr canvas{width:clamp(70px,20vw,132px)!important;height:auto!important}
+.hint{display:flex;align-items:center;justify-content:center;gap:8px;font-size:.84rem;color:var(--muted)}
+.hint svg{width:16px;height:16px}
+
+/* Actions */
+.panel{background:rgba(255,255,255,.04);border:1px solid var(--rule);border-radius:14px;padding:16px;display:grid;gap:12px}
+.panel h2{margin:0;font:700 1rem/1.2 var(--f-display);letter-spacing:.01em}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:12px 6px;border-radius:10px;border:1px solid var(--rule);background:rgba(13,46,38,.6);color:var(--ink);font:500 .82rem/1.15 var(--f-body);text-decoration:none;cursor:pointer;transition:transform .15s,border-color .15s,background .15s;min-width:0}
+.btn:hover{transform:translateY(-2px);border-color:var(--muted)}
+.btn svg{width:20px;height:20px}
+.btn.primary{background:var(--amber);border-color:var(--amber);color:#1B1206;font-weight:600}
+.btn.wide{grid-column:1/-1;flex-direction:row;padding:13px}
+.share{grid-template-columns:repeat(4,minmax(0,1fr))}
+.toast{min-height:1.2em;text-align:center;font-family:var(--f-mono);font-size:.8rem;color:var(--green)}
+.foot{text-align:center;font-size:.78rem;color:var(--muted)}
+.foot a{color:var(--ink)}
+@media (max-width:420px){ .share{grid-template-columns:repeat(3,minmax(0,1fr))} .btn{font-size:.76rem} }
+
+/* Render mode (used to produce the shareable video) */
+body.render{background:var(--band);overflow:hidden}
+body.render .wrap{max-width:none;width:1080px;height:1080px;padding:0;display:grid;place-items:center}
+body.render .wrap > :not(.stage){display:none!important}
+body.render .flip{width:920px;max-width:none}
+body.render .inner{transition:none}
+body.render .front::before{animation:none}
+body.render #net{display:none}
+body.render .f-top .mark{width:78px;font-size:1.9rem;border-radius:14px}
+body.render .eyebrow{font-size:1.15rem}
+body.render .name{font-size:5rem}
+body.render .role{font-size:1.4rem;margin-top:12px}
+body.render .tag{font-size:1.35rem}
+body.render .front{padding:52px}
+body.render .back{padding:44px;gap:36px}
+body.render .rows{font-size:1.45rem;gap:12px}
+body.render .rows div{grid-template-columns:140px 1fr}
+body.render .rows span{font-size:1.05rem}
+body.render .qr img,body.render .qr canvas{width:250px!important}
+
+@media (prefers-reduced-motion: reduce){ .inner{transition:none} .inner.spin{animation:none} .front::before{animation:none} .btn{transition:none} }
+</style>
+</head>
+<body>
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap">
+  <div class="top">
+    <a class="brand" href="https://njokdan.github.io/"><span class="mark">DN</span><b>Daniel Njoku</b></a>
+    <a class="site" href="https://njokdan.github.io/">Visit website →</a>
+  </div>
+
+  <p class="hello" id="hello">Hello, here's my card</p>
+
+  <div class="stage">
+    <div class="flip" id="flip" role="button" tabindex="0" aria-label="Business card of Daniel Njoku. Press to flip.">
+      <div class="inner" id="inner">
+        <div class="face front">
+          <div class="f-top"><span class="mark">DN</span><span class="eyebrow">Odoo ERP · Worldwide</span></div>
+          <div><div class="name">Daniel Njoku</div><div class="role">Independent Odoo ERP Consultant</div></div>
+          <div class="tag">Implementation · Customisation · HR &amp; Payroll · Migration · Support</div>
+        </div>
+        <div class="face back">
+          <div class="rows">
+            <div><span>Base</span><b>Lagos, Nigeria · worldwide</b></div>
+            <div><span>Email</span><b>njokdan@gmail.com</b></div>
+            <div><span>WhatsApp</span><b>+234 809 445 1628</b></div>
+            <div><span>LinkedIn</span><b>in/daniel-njoku-9790645b</b></div>
+            <div><span>X</span><b>@njokudanielo</b></div>
+            <div><span>Book</span><b>calendly.com/njokdan</b></div>
+          </div>
+          <div class="qr" id="qr" aria-label="QR code that opens this card"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg>Tap the card to flip it</p>
+
+  <section class="panel" aria-labelledby="h-reach">
+    <h2 id="h-reach">Get in touch</h2>
+    <div class="grid">
+      <a class="btn primary wide" href="https://calendly.com/njokdan/odoo-discovery-call" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>Book a free 30-minute Odoo call</a>
+      <a class="btn" href="https://wa.me/2348094451628?text=Hello%20Daniel%2C%20I%20got%20your%20card%20and%20would%20like%20to%20talk%20about%20Odoo." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>WhatsApp</a>
+      <a class="btn" href="tel:+2348094451628">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call</a>
+      <a class="btn" href="mailto:njokdan@gmail.com?subject=Odoo%20enquiry">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>
+      <button class="btn" type="button" id="vcf">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="8" r="4"/><path d="M3 21c0-3.9 3.1-7 7-7 1.4 0 2.6.4 3.7 1M19 15v6M16 18h6"/></svg>Save contact</button>
+      <a class="btn" href="https://www.linkedin.com/in/daniel-njoku-9790645b/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg>LinkedIn</a>
+      <a class="btn" href="https://njokdan.github.io/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Website</a>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-share">
+    <h2 id="h-share">Pass this card on</h2>
+    <div class="grid share">
+      <button class="btn primary wide" type="button" id="native" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg><span id="native-label">Share this card</span></button>
+      <a class="btn" data-net="whatsapp" target="_blank" rel="noopener" href="#">WhatsApp</a>
+      <a class="btn" data-net="linkedin" target="_blank" rel="noopener" href="#">LinkedIn</a>
+      <a class="btn" data-net="x" target="_blank" rel="noopener" href="#">X</a>
+      <a class="btn" data-net="facebook" target="_blank" rel="noopener" href="#">Facebook</a>
+      <a class="btn" data-net="telegram" target="_blank" rel="noopener" href="#">Telegram</a>
+      <a class="btn" data-net="email" href="#">Email</a>
+      <a class="btn" data-net="sms" href="#">Text</a>
+      <button class="btn" type="button" id="copy">Copy link</button>
+      <a class="btn wide" href="card-flip.mp4" download="Daniel-Njoku-card.mp4">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M17 10l4-2v8l-4-2"/></svg>Download the animated card (video)</a>
+    </div>
+    <div class="toast" id="toast" aria-live="polite"></div>
+  </section>
+
+  <p class="foot">Daniel Njoku · Independent Odoo ERP Consultant · <a href="https://njokdan.github.io/">njokdan.github.io</a></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+  const BASE="https://njokdan.github.io/", URL_CARD=BASE+"card.html";
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const render=new URLSearchParams(location.search).has("render");
+  const flip=document.getElementById("flip"), inner=document.getElementById("inner");
+  if(render) document.body.classList.add("render");
+
+  try{ new QRCode(document.getElementById("qr"),{text:URL_CARD,width:264,height:264,colorDark:"#0D2E26",colorLight:"#ffffff",correctLevel:QRCode.CorrectLevel.M}); }
+  catch(e){ document.getElementById("qr").hidden=true; }
+
+  try{ const h=new Date().getHours(); document.getElementById("hello").textContent=(h<5?"Good evening":h<12?"Good morning":h<17?"Good afternoon":"Good evening")+", here's my card"; }catch(e){}
+
+  // Flip on tap / keyboard
+  const toggle=()=>{ inner.classList.remove("spin"); flip.classList.toggle("flipped"); };
+  flip.addEventListener("click",toggle);
+  flip.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); toggle(); } });
+
+  // Spin three times on open, and again whenever the visitor comes back to the card
+  function spin(){ if(reduce||render) return; flip.classList.remove("flipped"); inner.classList.remove("spin"); void inner.offsetWidth; inner.classList.add("spin"); }
+  inner.addEventListener("animationend",()=>inner.classList.remove("spin"));
+  setTimeout(spin,450);
+  document.addEventListener("visibilitychange",()=>{ if(!document.hidden) setTimeout(spin,250); });
+  if("IntersectionObserver" in window){ let armed=false;
+    new IntersectionObserver(es=>{ const en=es[es.length-1]; if(!en.isIntersecting) armed=true; else if(armed){ armed=false; spin(); } },{threshold:.5}).observe(flip); }
+
+  // Hooks for producing the shareable video
+  window.__setAngle=a=>{ inner.style.transform="rotateY("+a+"deg)"; };
+
+  // Share
+  const toast=m=>{ const t=document.getElementById("toast"); t.textContent=m; clearTimeout(toast.h); toast.h=setTimeout(()=>t.textContent="",3500); };
+  const TEXT="Meet Daniel Njoku, an independent Odoo ERP consultant. Tap to flip his card:";
+  const enc=encodeURIComponent;
+  const nets={whatsapp:"https://wa.me/?text="+enc(TEXT+" "+URL_CARD),
+    linkedin:"https://www.linkedin.com/sharing/share-offsite/?url="+enc(URL_CARD),
+    x:"https://twitter.com/intent/tweet?text="+enc(TEXT)+"&url="+enc(URL_CARD),
+    facebook:"https://www.facebook.com/sharer/sharer.php?u="+enc(URL_CARD),
+    telegram:"https://t.me/share/url?url="+enc(URL_CARD)+"&text="+enc(TEXT),
+    email:"mailto:?subject="+enc("Daniel Njoku · Odoo ERP Consultant")+"&body="+enc(TEXT+"\n"+URL_CARD),
+    sms:"sms:?&body="+enc(TEXT+" "+URL_CARD)};
+  document.querySelectorAll("[data-net]").forEach(a=>a.href=nets[a.dataset.net]);
+  document.getElementById("copy").addEventListener("click",()=>{
+    try{ navigator.clipboard.writeText(URL_CARD).then(()=>toast("Link copied"),()=>toast(URL_CARD)); }catch(e){ toast(URL_CARD); } });
+
+  // Native share: send the animated card itself where the device allows files, otherwise the link
+  const nb=document.getElementById("native");
+  if(navigator.share){
+    nb.hidden=false;
+    let videoFile=null;
+    fetch("card-flip.mp4").then(r=>r.ok?r.blob():null).then(b=>{ if(!b) return;
+      const f=new File([b],"Daniel-Njoku-card.mp4",{type:"video/mp4"});
+      if(navigator.canShare&&navigator.canShare({files:[f]})){ videoFile=f; document.getElementById("native-label").textContent="Share the animated card"; }
+    }).catch(()=>{});
+    nb.addEventListener("click",async()=>{
+      try{
+        if(videoFile) await navigator.share({files:[videoFile],title:"Daniel Njoku · Odoo ERP Consultant",text:TEXT+" "+URL_CARD});
+        else await navigator.share({title:"Daniel Njoku · Odoo ERP Consultant",text:TEXT,url:URL_CARD});
+      }catch(e){ if(e&&e.name!=="AbortError") toast("Sharing isn't available here. Use the buttons below."); }
+    });
+  }
+
+  // Save contact
+  document.getElementById("vcf").addEventListener("click",()=>{
+    const v=["BEGIN:VCARD","VERSION:3.0","N:Njoku;Daniel;;;","FN:Daniel Njoku","TITLE:Independent Odoo ERP Consultant","ADR;TYPE=WORK:;;;Lagos;;;Nigeria",
+      "EMAIL;TYPE=WORK:njokdan@gmail.com","TEL;TYPE=CELL:+2348094451628","URL:"+BASE,
+      "X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/daniel-njoku-9790645b/","X-SOCIALPROFILE;TYPE=twitter:https://x.com/njokudanielo",
+      "NOTE:Odoo implementation\\, customisation\\, HR & payroll\\, migration and support. Book: https://calendly.com/njokdan/odoo-discovery-call","END:VCARD"].join("\r\n");
+    const u=URL.createObjectURL(new Blob([v],{type:"text/vcard"})); const a=document.createElement("a"); a.href=u; a.download="Daniel-Njoku.vcf";
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),2000); toast("Contact file downloading");
+  });
+
+  // Ambient module network
+  const c=document.getElementById("net"); if(render||!c.getContext) return;
+  const x=c.getContext("2d"), L=["account","sale","crm","stock","mrp","hr_payroll","project","studio","knowledge","purchase","website","helpdesk"];
+  let W,H,n=[],m={x:-1e4,y:-1e4};
+  function size(){ const d=Math.min(devicePixelRatio||1,2); W=innerWidth; H=innerHeight; c.width=W*d; c.height=H*d; x.setTransform(d,0,0,d,0,0);
+    const t=Math.max(18,Math.min(55,Math.round(W*H/20000))); while(n.length<t){ const a=Math.random()*6.28, s=.15+Math.random()*.25; n.push({x:Math.random()*W,y:Math.random()*H,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:Math.random()<.4?L[(Math.random()*L.length)|0]:null}); } n.length=t; }
+  function f(){ x.clearRect(0,0,W,H);
+    for(const p of n){ if(!reduce){ p.x+=p.vx; p.y+=p.vy; if(p.x<-50)p.x=W+50; if(p.x>W+50)p.x=-50; if(p.y<-20)p.y=H+20; if(p.y>H+20)p.y=-20; } }
+    for(let i=0;i<n.length;i++){ for(let j=i+1;j<n.length;j++){ const dx=n[i].x-n[j].x, dy=n[i].y-n[j].y, d=dx*dx+dy*dy; if(d<19600){ x.strokeStyle="rgba(157,184,174,"+((1-d/19600)*.2)+")"; x.beginPath(); x.moveTo(n[i].x,n[i].y); x.lineTo(n[j].x,n[j].y); x.stroke(); } }
+      const dx=n[i].x-m.x, dy=n[i].y-m.y, d=Math.sqrt(dx*dx+dy*dy); if(d<170){ x.strokeStyle="rgba(226,168,69,"+((1-d/170)*.4)+")"; x.beginPath(); x.moveTo(n[i].x,n[i].y); x.lineTo(m.x,m.y); x.stroke(); } }
+    x.font='500 11px "IBM Plex Mono", monospace'; x.textBaseline="middle";
+    for(const p of n){ x.fillStyle="rgba(232,242,238,.45)"; x.beginPath(); x.arc(p.x,p.y,p.l?2.4:1.5,0,6.28); x.fill(); if(p.l){ x.fillStyle="rgba(232,242,238,.25)"; x.fillText(p.l,p.x+7,p.y); } }
+    if(!reduce&&!document.hidden) raf=requestAnimationFrame(f); }
+  let raf=0; size(); f(); addEventListener("resize",size);
+  addEventListener("pointermove",e=>{ m.x=e.clientX; m.y=e.clientY; },{passive:true});
+  document.addEventListener("visibilitychange",()=>{ cancelAnimationFrame(raf); if(!document.hidden&&!reduce) raf=requestAnimationFrame(f); });
+})();
+</script>
+</body>
+</html>
